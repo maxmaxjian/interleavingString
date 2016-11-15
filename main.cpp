@@ -60,8 +60,8 @@ private:
 };
 
 int main() {
-  std::string s1{"aabcc"}, s2{"dbbca"}, s3{"aadbbcbcac"};
-
+  // std::string s1{"aabcc"}, s2{"dbbca"}, s3{"aadbbcbcac"};
+  std::string s1{"aabcc"}, s2{"dbbca"}, s3{"aadbbbaccc"};
 
   solution soln;
   bool interleave = soln.isInterleave(s1,s2,s3);
